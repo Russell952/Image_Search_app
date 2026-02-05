@@ -1,23 +1,61 @@
-<!doctype html>
-<html>
-    <head>
-        <link rel="stylesheet" href="style.css">
-        <title>Random Unsplash Images</title>
-    </head>
-    <body>
-        <div class="inputs">
-            <input type="text" id="searchInput" placeholder="Search for images..." />
-            <button id="searchBtn">Search</button>
-        </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Search App</title>
+</head>
+<body>
+    
+    <!-- Hero Section -->
+<section id="hero" style="text-align:center; padding:60px 20px; background: linear-gradient(135deg, #e0e0e0, #f9f9f9);">
+  <h1 style="font-size:3rem; margin-bottom:20px;">Discover Stunning Images in Seconds</h1>
+  <p style="font-size:1.2rem; margin-bottom:30px; max-width:600px; margin-left:auto; margin-right:auto;">
+    Search millions of high-quality photos instantly. Whether you need inspiration, wallpapers, design assets, or just something cool — find the perfect image with a single search.
+  </p>
+  <button style="background-color:#059669; color:white; border:none; border-radius:8px; font-size:16px; font-weight:bold; padding:12px 24px; cursor:pointer; transition:0.2s;">
+    <a href="index.html" style="color:white; text-decoration:none;">🔍 Start Searching</a>
+  </button>
+</section>
 
-        <div id="gallery"></div>
+<!-- What It Does -->
+<section id="what-it-does" style="text-align:center; padding:50px 20px;">
+  <h2 style="font-size:2rem; margin-bottom:20px;">What This App Does</h2>
+  <p style="font-size:1rem; max-width:700px; margin-left:auto; margin-right:auto;">
+    This image search app helps you find beautiful, high-resolution photos from across the web in seconds. Just type a keyword, hit search, and explore a clean grid of stunning visuals ready to view and download.
+  </p>
+</section>
 
-        <div id="preview" class="hidden">
-            <img id="previewImg" />
-        </div>
+<!-- How It Works -->
+<section id="how-it-works" style="text-align:center; padding:50px 20px; background-color:#f4f4f4;">
+  <h2 style="font-size:2rem; margin-bottom:20px;">How It Works</h2>
+  <ol style="list-style-position: inside; font-size:1rem; max-width:600px; margin-left:auto; margin-right:auto; text-align:left;">
+    <li><strong>Type What You Want:</strong> Enter any keyword — nature, tech, people, design, anything.</li>
+    <li><strong>Instant Results:</strong> Browse a responsive grid of high-quality images.</li>
+    <li><strong>Click to Preview:</strong> Tap any image to view it in fullscreen.</li>
+    <li><strong>Load More:</strong> Keep scrolling and discover even more visuals.</li>
+  </ol>
+</section>
 
+<!-- Features -->
+<section id="features" style="text-align:center; padding:50px 20px;">
+  <h2 style="font-size:2rem; margin-bottom:20px;">Why You’ll Love It</h2>
+  <ul style="list-style:none; padding:0; font-size:1rem; max-width:600px; margin-left:auto; margin-right:auto;">
+    <li>⚡ Fast and simple search</li>
+    <li>📱 Fully responsive on all devices</li>
+    <li>🖼️ High-quality images</li>
+    <li>🔎 Clean fullscreen previews</li>
+    <li>🚀 Smooth and minimal design</li>
+  </ul>
+</section>
 
+<!-- Call To Action -->
+<section id="cta" style="text-align:center; padding:60px 20px; background: linear-gradient(135deg, #e0e0e0, #f9f9f9);">
+  <h2 style="font-size:2rem; margin-bottom:20px;">Ready to explore amazing visuals?</h2>
+  <button style="background-color:#059669; color:white; border:none; border-radius:8px; font-size:16px; font-weight:bold; padding:12px 24px; cursor:pointer; transition:0.2s;">
+    <a href="index.html" style="color:white; text-decoration:none;">👉 Get Started Now</a>
+  </button>
+</section>
 
-        <script src="script.js"></script>
-    </body>
+</body>
 </html>
